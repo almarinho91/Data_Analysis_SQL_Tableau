@@ -1,5 +1,5 @@
 # Cyclistic Bike-Sharing: Data Analysis Case Study
-In this data analysis case study, the bike-sharing fictional company Cyclistic wants to answer some important questions for the further development of the company through its rides database. The data used corresponds to the period August 2021 to July 2022 and can be found [here](https://divvy-tripdata.s3.amazonaws.com/index.html). The public data are provided and licensed by Motivate International Inc. through 12 zipped .csv files. The objectives of this project are to do a data analysis to answer some questions about the company. For this were used:
+In this data analysis case study, the bike-sharing fictional company Cyclistic wants to answer some important questions for the further development of the company through its rides database. The data used corresponds to the period from August 2021 to July 2022 and can be found [here](https://divvy-tripdata.s3.amazonaws.com/index.html). The public data are provided and licensed by Motivate International Inc. through 12 zipped .csv files. The objectives of this project are to do a data analysis to answer some questions about the company. For this were used:
 
 - Excel and SQL Server for initial analysis;
 - Data processing (cleaning, validation and exploration) through SQL queries (code documentation available in this repository);
@@ -24,6 +24,21 @@ The company finance analysts have concluded that Cyclistic members are more prof
 2. Why would casual riders buy Cyclistic annual memberships?
 
 3. How can Cyclistic use digital media to influence casual riders to become members?
+
+## Data Processing
+### Data source description
+### Cleaning and processing data
+## Data Analysis and Visualization
+### Trip duration overview
+### Hourly trend
+### Dayly trend
+### Monthly trend
+### Bike preferences 
+### Geographic overview of departure and arrival stations
+### Top 10 stations (departure and arrival)
+## Conclusion
+### Sumary of Analysis
+### Recomendations based on Analysis
 
 
 
