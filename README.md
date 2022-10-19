@@ -50,7 +50,9 @@ Firstly, the .csv files were opened using Microsoft Excel to get a general idea 
 4. Finally, for the data analysis, only rides with duration with more than five minutes were considered.
 
 ## Data Analysis and Visualization
-### Trip duration overview
+The images in this section were made using Tableau Public.
+### Overall trips overview
+
 ### Hourly trend
 ### Dayly trend
 ### Monthly trend
