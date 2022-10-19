@@ -52,6 +52,11 @@ Firstly, the .csv files were opened using Microsoft Excel to get a general idea 
 ## Data Analysis and Visualization
 The images in this section were made using Tableau Public.
 ### Overall trips overview
+It can be seen below that most of the trips during the period under review were made by members of the service. This is equivalent to approximately 53% of the trips. 
+<p align="center">
+  <img src="/images/total_rides_per_membership.PNG" width="320" height="244">
+</p>
+
 
 ### Hourly trend
 ### Dayly trend
