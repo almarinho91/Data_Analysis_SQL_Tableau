@@ -27,6 +27,12 @@ The company finance analysts have concluded that Cyclistic members are more prof
 
 ## Data Processing
 ### Data source description
+As already mentioned, for this study a database of the fictitious company Cyclistic was used. In this context, the trips made by the users of the service in the period between August 2021 and July 2022 were analyzed. The data is provided in .csv format, each one corresponding to a month of that period. 
+
+The data is provided by the company in an organized structure, containing 13 columns that specify each trip. In this context, there is information about the trip identification (ride_id), the type of bike used (rideable_type), information about the trip times (started_at and ended_at), the type of subscription of the service user (member_casual) among other information.
+
+There is no information in the database that can identify the users of each trip, such as user name or credit card information. Therefore, it is not possible to know, for example, in which area those users live or how much specific casual users would profit from getting a membership. 
+
 ### Cleaning and processing data
 ## Data Analysis and Visualization
 ### Trip duration overview
