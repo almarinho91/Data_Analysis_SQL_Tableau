@@ -29,11 +29,26 @@ The company finance analysts have concluded that Cyclistic members are more prof
 ### Data source description
 As already mentioned, for this study a database of the fictitious company Cyclistic was used. In this context, the trips made by the users of the service in the period between August 2021 and July 2022 were analyzed. The data is provided in .csv format, each one corresponding to a month of that period. 
 
-The data is provided by the company in an organized structure, containing 13 columns that specify each trip. In this context, there is information about the trip identification (ride_id), the type of bike used (rideable_type), information about the trip times (started_at and ended_at), the type of subscription of the service user (member_casual) among other information.
+The data is provided by the company in an organized structure, containing 13 columns that specify each trip. In this context, there is information about the trip identification (`ride_id`), the type of bike used (`rideable_type`), information about the trip times (`started_at` and `ended_at`), the type of subscription of the service user (`member_casual`) among other information.
 
 There is no information in the database that can identify the users of each trip, such as user name or credit card information. Therefore, it is not possible to know, for example, in which area those users live or how much specific casual users would profit from getting a membership. 
 
 ### Cleaning and processing data
+
+Firstly, the .csv files were opened using Microsoft Excel to get a general idea of the values of each variable contained in the spreadsheets and to know which variables would be of most importance for the data analysis. For the data cleaning and processing Microsoft SQL Server Management Studio was used, in which the following steps were performed:
+
+1. The UNION query was used to concatenate the referenced files of each month into a single data set.
+
+2. The features that presented null values were disregarded. Also, since all rides must contain a value for arrival station (`start_station_name`) and departure station (`end_station_name`), temporary stations or those with invalid names were disregarded.
+
+3. Using the data information of each ride (`started_at` and `ended_at`), the following features were created:
+- `ride_duration`: informing the duration of each ride;
+- `start_hour`: informing the beginning of each ride;
+- `start_day`: informing the day of the week of each started ride;
+- `start_month`: informing the month of each started ride.
+
+4. Finally, for the data analysis, only rides with duration with more than five minutes were considered.
+
 ## Data Analysis and Visualization
 ### Trip duration overview
 ### Hourly trend
