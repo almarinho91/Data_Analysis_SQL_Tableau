@@ -57,10 +57,34 @@ It can be seen below that most of the trips during the period under review were 
   <img src="/images/total_rides_per_membership.PNG" width="320" height="244">
 </p>
 
+However, when analyzing the total ride duration in minutes made by the two types of users, it can be seen that casual users represent more than 60% of the total amount of the trips‘ time. 
+<p align="center">
+  <img src="/images/total_ride_duration.png" width="539" height="134">
+</p>
+
+Furthermore, as can be observed in the graph that considers the average trip duration between the two types of users, it can be seen that casual users usually use the bicycles for almost twice as long as member users in one trip. This is probably because members use the service in their routines, such as going to work or school. Casual users, on the other hand, probably use the service for leisure.
+<p align="center">
+  <img src="/images/avg_ride_duration.png" width="539" height="134">
+</p>
 
 ### Hourly trend
-### Dayly trend
+The hourly trip trend analysis shows that, for member users, there are two peaks in the day in which the bikes are more often used. This corresponds to 7:30 AM and 5:30 PM, which are in fact the usual time people go and return from work, respectively. As for casual members, the trend shows an increase in use during the day through the evening, with a peak also close to 5:30 PM.
+<p align="center">
+  <img src="/images/hourly_trend.PNG" width="544" height="420">
+</p>
+
+### Daily trend
+The graph below shows the daily trip trend for both user types. In fact, it shows that the members use the service more uniformly throughout the week, with slightly less usage on the weekends. As for casual users, the number of trips tends to increase on the weekends.
+<p align="center">
+  <img src="/images/daily_trend.PNG" width="500" height="220">
+</p>
+
 ### Monthly trend
+The monthly trip trend for both users shows the same distribution for the analyzed period. It can be seen that rides for both user types have a maximum peak in the month of August/2021 and decrease more or less linearly reaching a minimum in January/2022. This can be explained by considering that in the same period, the temperatures also drop, which prevents people from using the service in colder seasons. From February/2022 until the end of the studied period, the trips by both users tend to increase, with a bigger growth rate in the period from April/2022 until June/2022.
+<p align="center">
+  <img src="/images/monthly_trend.PNG" width="544" height="420">
+</p>
+
 ### Bike preferences 
 ### Geographic overview of departure and arrival stations
 ### Top 10 stations (departure and arrival)
