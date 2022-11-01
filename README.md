@@ -85,7 +85,6 @@ The monthly trip trend for both users shows the same distribution for the analyz
   <img src="/images/monthly_trend.PNG" width="544" height="420">
 </p>
 
-### Bike preferences 
 ### Geographic overview of departure and arrival stations
 ### Top 10 stations (departure and arrival)
 ## Conclusion
