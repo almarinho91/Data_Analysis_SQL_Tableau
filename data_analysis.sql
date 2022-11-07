@@ -86,7 +86,8 @@ final_data AS
 ),
 
 ---------------------------------------------------------> EXPLORING AND ANALYSING DATA
----------------------------------------------------------> Average trip duration per member type
+
+---------------------------------------------------------> Count membership types
 count_membership AS
 (
 	SELECT 
@@ -96,7 +97,7 @@ count_membership AS
 		OR	member_casual = 'member'
 	GROUP BY member_casual
 ),
-
+---------------------------------------------------------> Average trip duration per member type
 avg_by_member AS
 (
 	SELECT 
@@ -243,7 +244,7 @@ depart_latlng AS
 	GROUP BY start_station_name
 ),
 
-----------------------------------------------------------> Join location coordinate data with ridership count 
+----------------------------------------------------------> JOIN location coordinate data with ridership count 
 locationviz_depart AS
 (
 	SELECT 
@@ -258,7 +259,7 @@ locationviz_depart AS
 ),
 
 
------------------------------------------------------------> Find out total numbers of member or casual riders ARRIVING for respective stations <----------------------------------
+---------------------------------------------------------> Arrival station per member type: casual
 casual_arrive_station AS
 (
 	SELECT 
@@ -268,7 +269,7 @@ casual_arrive_station AS
 	WHERE member_casual = 'casual' 
 	GROUP BY end_station_name
 ),
-
+---------------------------------------------------------> Arrival station per member type: member
 member_arrive_station AS
 (
 	SELECT 
@@ -279,7 +280,7 @@ member_arrive_station AS
 	GROUP BY end_station_name 
 ),
 
----------------------------------------------------------> Join member & casual riders ON arriving bike stations 
+---------------------------------------------------------> JOIN member & casual riders ON arriving bike stations 
 arrive_station AS
 (
 	SELECT 
@@ -302,7 +303,7 @@ arrive_latlng AS
 	GROUP BY end_station_name
 ),
 
----------------------------------------------------------> Join location coordinate data with ridership count 
+---------------------------------------------------------> JOIN location coordinate data with ridership count 
 locationviz_arrive AS
 (
 	SELECT 
