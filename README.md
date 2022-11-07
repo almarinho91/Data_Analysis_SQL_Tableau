@@ -59,7 +59,7 @@ It can be seen below that most of the trips during the period under review were 
 
 However, when analyzing the total ride duration in minutes made by the two types of users, it can be seen that casual users represent more than 60% of the total amount of the trips‘ time. 
 <p align="center">
-  <img src="/images/total_ride_duration.png" width="539" height="134">
+  <img src="/images/total_ride_durationv2.png" width="539" height="134">
 </p>
 
 Furthermore, as can be observed in the graph that considers the average trip duration between the two types of users, it can be seen that casual users usually use the bicycles for almost twice as long as member users in one trip. This is probably because members use the service in their routines, such as going to work or school. Casual users, on the other hand, probably use the service for leisure.
