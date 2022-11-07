@@ -109,8 +109,13 @@ Moreover, to facilitate the visualization, is an image showing the geolocalizati
 </p>
 
 ## Conclusion
-aaaa
 ### Sumary of Analysis
+- The analysis shows that, on average, 'casual' users make longer trips than 'member' users. Furthermore, considering the total travel time of the two user categories, 'casual' users represent the largest share;
+- The trips of 'casual' users tend to grow during the day, peaking in the late afternoon. For 'member' users, there are two peaks during the day, in the morning and in the late afternoon;
+- The trips of the 'casual' users have their peaks on the weekends, while the trips of the 'member' user have higher numbers throughout the whole week;
+- During the analyzed one-year period, trips for both cases tend to decrease more dramatically at the beginning of autumn and grow more expressively at the beginning of spring;
+- For the 'casual' users, the stations directly on the coast are the most used for departure and arrival. For 'member' users, these numbers are more evenly distributed among the stations.
+
 ### Recomendations based on Analysis
 
 
