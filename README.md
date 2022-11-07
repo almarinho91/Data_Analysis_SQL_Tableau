@@ -85,9 +85,31 @@ The monthly trip trend for both users shows the same distribution for the analyz
   <img src="/images/monthly_trend.PNG" width="544" height="420">
 </p>
 
-### Geographic overview of departure and arrival stations
-### Top 10 stations (departure and arrival)
+### Top 15 stations (departure and arrival)
+#### Membership: Member
+Below is a table with the count for the top 15 departure and arival stations for users who are members of the service.
+<p align="center">
+  <img src="/images/stations_member.png" width="600" height="420">
+</p>
+
+Moreover, to facilitate the visualization, is an image showing the geolocalization of such stations.
+<p align="center">
+  <img src="/images/geo_member.png">
+</p>
+
+#### Membership: Casual
+Below is a table with the count for the top 15 departure and arival station for the casual users of the service.
+<p align="center">
+  <img src="/images/stations_casual.png" width="600" height="420">
+</p>
+
+Moreover, to facilitate the visualization, is an image showing the geolocalization of such stations.
+<p align="center">
+  <img src="/images/geo_casual.png">
+</p>
+
 ## Conclusion
+aaaa
 ### Sumary of Analysis
 ### Recomendations based on Analysis
 
