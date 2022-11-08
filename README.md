@@ -23,8 +23,6 @@ The company finance analysts have concluded that Cyclistic members are more prof
 
 2. Why would casual riders buy Cyclistic annual memberships?
 
-3. How can Cyclistic use digital media to influence casual riders to become members?
-
 ## Data Processing
 ### Data source description
 As already mentioned, for this study a database of the fictitious company Cyclistic was used. In this context, the trips made by the users of the service in the period between August 2021 and July 2022 were analyzed. The data is provided in .csv format, each one corresponding to a month of that period. 
@@ -116,7 +114,6 @@ Moreover, to facilitate the visualization, is an image showing the geolocalizati
 - During the analyzed one-year period, trips for both cases tend to decrease more dramatically at the beginning of autumn and grow more expressively at the beginning of spring;
 - For the 'casual' users, the stations directly on the coast are the most used for departure and arrival. For 'member' users, these numbers are more evenly distributed among the stations.
 
-### Recomendations based on Analysis
 
 
 
